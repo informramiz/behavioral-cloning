@@ -1,3 +1,6 @@
+# Introduction
+
+A Convolutional Neural Network based on this [NVIDIA paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) for end-to-end driving in a this simulator \([Linux](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae46bb_linux-sim/linux-sim.zip), [Mac](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4594_mac-sim.app/mac-sim.app.zip), [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4419_windows-sim/windows-sim.zip)\)
 
 # Solution Design
 
@@ -72,7 +75,7 @@ Overall data set included following types of samples
 
 Please setup your Python environment first with [this start kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
-All code is written in Jupyter Notebook and each step is detailed and code is commented so running the Jupyter Notebook sequentially should work fine. Just make sure paths to train data are fine. After the code is executed, it will save **model** and **weights** in folder named _model_. Folder _model_ already contains python file `drive.py` which can be used to connect this saved model to simulator. 
+All code is written in Jupyter Notebook and each step is detailed and code is commented so running the Jupyter Notebook sequentially should work fine. Just make sure paths to training data are fine. After the code is executed, it will save **model** and **weights** in folder named _model_. Folder _model_ already contains python file `drive.py` which can be used to connect this saved model to simulator. 
 
 ## Testing on Simulator
 
@@ -80,4 +83,6 @@ All code is written in Jupyter Notebook and each step is detailed and code is co
 - Run simulator in Autonomous mode
 - Now run your model server with command `python model/drive.py model.h5`
 - Car shoud start moving in simulator
+
+
 
