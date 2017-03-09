@@ -9,7 +9,7 @@ A visualization of NVIDIA network
 ![visualization](model.png)
 
 A screenshot of Simulator
-![Simulator](simulator)
+![Simulator](simulator1.png)
 
 Mainly track-1 was used for training and testing but trained model is well generalized so it also performs well on track-2 as well.
 
