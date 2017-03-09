@@ -2,6 +2,9 @@
 
 A Convolutional Neural Network based on this [NVIDIA paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) for end-to-end driving in a this simulator \([Linux](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae46bb_linux-sim/linux-sim.zip), [Mac](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4594_mac-sim.app/mac-sim.app.zip), [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4419_windows-sim/windows-sim.zip)\)
 
+A visualization of NVIDIA network
+![visualization](model.png)
+
 # Solution Design
 
 ![Model Architecture](model.png)
@@ -51,10 +54,6 @@ So in total it uses total 13 layers:
 - **batch size =** 128
 
 To avoid memory problems keras data generators have been used along with fit_generator and evaluate_generator functions
-
-As this model is based on NVIDIA auto-pilot cars <a href='http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf'>paper</a> CNN so for visualization purposes I am referring to their image.
-
-<img src='model-img.png'/>
 
 # Model Training and Charactristics of dataset
 
